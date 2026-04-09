@@ -1,4 +1,0 @@
-[submodule "vshell"]
-	path = vshell
-	url = git@github.com:itsKryxen/vshell.git
-	branch = main
