@@ -1,3 +1,4 @@
 [tools]
 gleam = "latest"
 node = "latest"
+pnpm = "latest"
