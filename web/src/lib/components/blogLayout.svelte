@@ -36,8 +36,8 @@
 
 <div class="min-h-screen px-4 py-6 md:px-8">
 	<div class="mx-auto flex max-w-6xl flex-col gap-10 md:flex-row">
-		<div>
-			<nav class="shrink-0 md:sticky md:top-6 md:h-fit md:w-56">
+		<div class="shrink-0 md:sticky md:top-6 md:h-fit md:w-56">
+			<nav class="">
 				<a
 					href="/"
 					class="henny-penny-regular block text-center text-5xl leading-none hover:underline md:text-left"
