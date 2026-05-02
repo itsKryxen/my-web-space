@@ -4,7 +4,7 @@
 	let { data }: PageProps = $props();
 </script>
 
-<section class="space-y-4">
+<section class="space-y-6">
 	<div>
 		<h1 class="font-bold tracking-tight">
 			Hello, I'm <span class="font-bold">Kryxen</span>
@@ -12,7 +12,7 @@
 		<p class="text-fg/60">A CS student building weird web, systems, and random experiments.</p>
 	</div>
 
-	<div class="space-y-3 text-sm leading-7 text-fg/80">
+	<div class="space-y-4 text-sm leading-7 text-fg/80">
 		<p>
 			This is the place where I put projects that mostly solve nothing, but I worked on them because
 			they were fun to build and a good learning experience.
