@@ -27,11 +27,11 @@
 	</p>
 
 	<p>
-		The same argument can be made for the projects people cloned from GitHub to put on their
-		resumes, but at least they learned something, like cloning it and making some changes to make it
-		look less obvious. They might have learned something, like how to set up the env and run it, and
-		might have debugged something when setting the env. I assume they put some effort into making it
-		less obvious. They did, right?
+		The same argument can be made for the projects people cloned from GitHub to put on their resumes
+		pre LLM era, but at least they learned something, like cloning it and making some changes to
+		make it look less obvious. They might have learned something, like how to set up the env and run
+		it, and might have debugged something when setting the env. I assume they put some effort into
+		making it less obvious. They did, right?
 	</p>
 
 	<p>
@@ -58,18 +58,18 @@
 		just make a PR. If it is not open source, lucky you: you got one more project on your todo list,
 		which might become great software you can be proud of.
 	</p>
-	<h2 id="toc:the-plan">The plan</h2>
+	<h2 id="toc:the-plan">the plan</h2>
 	<p>
-		i plan on making this website showcase the things i recreated, which i find cool, and i would
-		like to integrate them if possible.
+		I plan on making this website showcase the things I recreated without LLM-generated code, which
+		I find cool, and I would like to integrate them if possible.
 	</p>
 
 	<p>
-		but not everything can run on the web, right? well, the web has come a long way with
-		webassembly. though i cannot put everything i make here, i can put enough things here that i can
-		integrate to make a good showcase for future interviews/recruiters. that is the plan at least.
-		even if it job part fails, i can brag about a cool project, and more importantly, the knowledge
-		from building all of those things will be crazy.
+		But not everything can run on the web, right? Well, the web has come a long way with
+		WebAssembly. Though I cannot put everything I make here, I can put enough things here to create
+		a solid showcase for future interviews and recruiters. That is the plan, at least. Even if the
+		job part fails, I can brag about building a cool project. More importantly, the knowledge gained
+		from building all of those things will be insane.
 	</p>
 	<h2 id="toc:the-start">The Start</h2>
 
@@ -90,6 +90,6 @@
 	<p>
 		While working on this, I plan on writing blog posts about the process. That should help me
 		improve my explanation skills, which is important for a developer who wants to work on team
-		projects.
+		projects. I plan to create a separate blog for it, so this section is brief overview.
 	</p>
 </article>

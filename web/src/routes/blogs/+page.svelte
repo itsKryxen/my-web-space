@@ -12,7 +12,7 @@
 		<p class="text-fg/60">A CS student building weird web, systems, and random experiments.</p>
 	</div>
 
-	<div class="space-y-3 text-base leading-7 text-fg/80 md:text-lg">
+	<div class="space-y-3 text-sm leading-7 text-fg/80">
 		<p>
 			This is the place where I put projects that mostly solve nothing, but I worked on them because
 			they were fun to build and a good learning experience.
@@ -28,11 +28,14 @@
 
 <div class="mt-6 space-y-4">
 	{#each data.posts as post}
-		<a href={post.href} class="block rounded-lg border border-white/10 p-4 hover:bg-white/5">
-			<h2 class="text-xl font-semibold">{post.title}</h2>
+		<a
+			href={post.href}
+			class="block space-y-2 rounded-lg border border-white/10 p-4 hover:bg-white/5"
+		>
+			<h2 class="henny-penny-regular text-xl font-bold">{post.title}</h2>
 
 			{#if post.description}
-				<p class="text-muted">{post.description}</p>
+				<p class="text-sm text-muted">{post.description}</p>
 			{/if}
 
 			{#if post.date}
