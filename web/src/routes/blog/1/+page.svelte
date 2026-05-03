@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<article class="prose flex max-w-none flex-col gap-4 prose-invert">
+<article class="prose max-w-none prose-invert">
 	<h1 class="henny-penny-regular text-center" id="toc:title">Putting Fun to Use</h1>
 
 	<p>
@@ -9,38 +9,45 @@
 		just fun to write code and watch it turn into something cool. I get a great feeling when I build
 		something that actually works, especially when I wrote it from scratch or with very few
 		abstractions. This is my attempt to chase that feeling while turning the results into a
-		technical showcase.
+		showcase.
 	</p>
 
-	<h2 id="toc:the-situation" class="">The Situation as I See It</h2>
+	<h2 id="toc:why" class="">Why This Exists</h2>
 	<p>
-		I am still a college student, and I like to code. By that, I mean actually writing the code, not
-		generating it. However, I lack professional coding experience. The situation today is different
-		from when I started coding for fun around 2020. Back then, I hoped that having solid coding
-		skills and a few good projects would help me land a job doing something I love. That may still
-		be true, or it may not be.
-	</p>
-
-	<p>
-		These days, because of subsidized LLM tools, the same metrics do not mean as much anymore. Many
-		generic projects can now be generated easily.
+		I am still a college student, and I like to code. By that, I mean I enjoy actually writing the
+		code, understanding the system, debugging it, and seeing the result work. I do not have much
+		professional coding experience yet, so I need other ways to prove that I can build things
+		seriously.
 	</p>
 
 	<p>
-		The same argument can be made for the projects people cloned from GitHub to put on their resumes
-		pre LLM era, but at least they learned something, like cloning it and making some changes to
-		make it look less obvious. They might have learned something, like how to set up the env and run
-		it, and might have debugged something when setting the env. I assume they put some effort into
-		making it less obvious. They did, right?
+		When I started coding for fun around 2020, I believed that solid coding skills and a few good
+		projects could help me get a job doing something I enjoy. That may still be true, but the
+		standard for what counts as a good project has changed.
+	</p>
+
+	<h2 id="toc:generic-projects">Generic Projects Are Not Enough</h2>
+
+	<p>
+		Many common portfolio projects no longer say much by themselves. With modern LLM tools, a
+		generic app can be generated, patched, and presented without the person behind it understanding
+		much of the system. This does not make LLMs bad, but it does make shallow projects less useful
+		as proof of skill.
 	</p>
 
 	<p>
-		But with LLMs, people just prompt, take a screenshot, give it to an LLM, and ask it to fix it,
-		not learning anything. They have no idea about the setup they are using, not even basic Git
-		understanding. At least, this is what I have observed around me.At least, that is what I have
-		observed around me.
+		There was always a version of this problem. Before LLMs, people cloned projects from GitHub,
+		changed a few things, and put them on resumes. At least that usually forced them to set up the
+		environment, run the project, debug something, and understand part of the stack. With LLMs, it
+		is easier to skip even that. I want the project here to be built purely by myself without LLMs,
+		understanding each part and seeing the code produce something cool.
 	</p>
-	<h2 id="toc:so-what">So What</h2>
+
+	<p>
+		That is not the kind of work I want this website to show. I want the projects here to show that
+		I built them myself.
+	</p>
+	<h2 id="toc:so-what">What I Want to Prove</h2>
 	<p>
 		Well, I plan to get employed at some point. I would like to be in an environment where I get
 		paid well, obviously, and where I can be surrounded by highly skilled people who peer-pressure
@@ -58,7 +65,7 @@
 		just make a PR. If it is not open source, lucky you: you got one more project on your todo list,
 		which might become great software you can be proud of.
 	</p>
-	<h2 id="toc:the-plan">the plan</h2>
+	<h2 id="toc:the-plan">The Plan</h2>
 	<p>
 		I plan on making this website showcase the things I recreated without LLM-generated code, which
 		I find cool, and I would like to integrate them if possible.
@@ -71,9 +78,13 @@
 		job part fails, I can brag about building a cool project. More importantly, the knowledge gained
 		from building all of those things will be insane.
 	</p>
-	<h2 id="toc:the-start">The Start</h2>
+	<h2 id="toc:the-start">Starting With a Browser Shell</h2>
 
-	<p>I want to start with a shell in the browser. A shell in the browser? Yeah, but how?</p>
+	<p>
+		I want to start with a shell in the browser. <span class="font-bold"
+			>A shell in the browser?</span
+		> Yeah, but how?
+	</p>
 
 	<p>
 		I plan to simulate a shell in the browser, so I need to write a simulation layer for the parts
@@ -88,8 +99,8 @@
 	</p>
 
 	<p>
-		While working on this, I plan on writing blog posts about the process. That should help me
-		improve my explanation skills, which is important for a developer who wants to work on team
-		projects. I plan to create a separate blog for it, so this section is brief overview.
+		While building it, I also want to write posts about the process. That should help me improve my
+		ability to explain technical work, which matters if I want to work well on real teams. This page
+		is only the overview; the deeper write-ups can live in a separate blog section.
 	</p>
 </article>
